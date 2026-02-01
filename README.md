@@ -1,176 +1,124 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>StatZone – Football Performance Analytics</title>
+# ⚽ StatZone — Football Performance Analytics Platform
 
-<style>
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    background: #f5f7fa;
-    color: #222;
-}
+> **Interactive Football Data Analytics & Machine Learning Platform**  
+> Analyze • Visualize • Predict Player Performance
 
-.container {
-    width: 90%;
-    max-width: 1300px;
-    margin: auto;
-}
+---
 
-/* HEADER */
-header {
-    background: linear-gradient(135deg,#0f2027,#203a43,#2c5364);
-    color: white;
-    padding: 40px 0;
-    text-align: center;
-}
+## 🎯 Project Objective
 
-header h1 {
-    margin-bottom: 10px;
-    font-size: 40px;
-}
+**StatZone** is an interactive data analytics platform designed to analyze, visualize and predict football players performance using real-world datasets.  
+The platform integrates ETL pipelines, data warehousing, machine learning models and interactive dashboards.
 
-/* SECTION */
-section {
-    margin: 50px 0;
-}
+---
 
-.section-title {
-    font-size: 28px;
-    margin-bottom: 15px;
-    border-left: 5px solid #2c5364;
-    padding-left: 12px;
-}
+## 🛠 Technologies Used
 
-/* LIST */
-ul {
-    line-height: 1.9;
-    font-size: 17px;
-}
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql)
+![ScikitLearn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit)
+![ETL](https://img.shields.io/badge/ETL-Pipeline-blue?style=for-the-badge)
 
-/* GRID IMAGES */
-.gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    gap: 20px;
-}
+---
 
-.gallery img {
-    width: 100%;
-    border-radius: 12px;
-    box-shadow: 0px 5px 15px rgba(0,0,0,0.15);
-    transition: transform 0.3s;
-}
+## 🏗 System Architecture
 
-.gallery img:hover {
-    transform: scale(1.03);
-}
+Data Collection
+↓
+Data Cleaning & Preprocessing
+↓
+ETL Pipeline
+↓
+Data Warehouse (PostgreSQL)
+↓
+Machine Learning Models
+↓
+Interactive Dashboard (Streamlit)
 
-/* FOOTER */
-footer {
-    background: #111;
-    color: #aaa;
-    padding: 20px;
-    text-align: center;
-}
+yaml
+Copy code
 
-/* TAGS */
-.badge {
-    display: inline-block;
-    background: #2c5364;
-    color: white;
-    padding: 6px 12px;
-    margin: 5px;
-    border-radius: 6px;
-    font-size: 14px;
-}
+---
 
-</style>
-</head>
+## 🚀 Main Features
 
-<body>
+✔ Player Performance Analysis  
+✔ Similar Players Detection (ML Similarity)  
+✔ Expected Goals (xG) Prediction  
+✔ Interactive Visual Dashboards  
+✔ League & Team Comparison  
+✔ Match Analytics  
+✔ Statistical Exploration Module  
+✔ Admin Management Panel  
 
-<header>
-    <h1>⚽ StatZone</h1>
-    <p>Football Performance Analytics Platform</p>
-    <p>Interactive Data Analytics & Machine Learning System</p>
-</header>
+---
 
-<div class="container">
+## 📊 Platform Preview
 
-<!-- OBJECTIVE -->
-<section>
-    <h2 class="section-title">🎯 Project Objective</h2>
-    <p>
-        StatZone is an interactive data analytics platform designed to analyze,
-        visualize and predict football players performance using real datasets.
-    </p>
-</section>
+### 🏠 Home Dashboard
+![Home](https://github.com/user-attachments/assets/ab9a4076-0d67-443c-b30e-94683b764930)
 
-<!-- TECHNOLOGIES -->
-<section>
-    <h2 class="section-title">🛠 Technologies Used</h2>
+---
 
-    <span class="badge">Python</span>
-    <span class="badge">Pandas</span>
-    <span class="badge">PostgreSQL</span>
-    <span class="badge">Scikit-learn</span>
-    <span class="badge">Streamlit</span>
-    <span class="badge">ETL Pipeline</span>
-</section>
+### 🔴 My Club — AC Milan Analysis
+![Milan](https://github.com/user-attachments/assets/06fccd7a-7da7-4ded-86cd-09dadf25998d)
 
-<!-- ARCHITECTURE -->
-<section>
-    <h2 class="section-title">🏗 System Architecture</h2>
+---
 
-    <ul>
-        <li>Data Collection</li>
-        <li>Data Cleaning & Preprocessing</li>
-        <li>ETL Process</li>
-        <li>Data Warehouse</li>
-        <li>Machine Learning Models</li>
-        <li>Visualization Dashboard</li>
-    </ul>
+### 👥 Players Performance Dashboard
+![Players](https://github.com/user-attachments/assets/949a5b02-74b8-47c9-ae29-4f070e90f458)
 
-</section>
+---
 
-<!-- FEATURES -->
-<section>
-    <h2 class="section-title">🚀 Main Features</h2>
+### 📈 Expected Goals Prediction (xG)
+![xG](https://github.com/user-attachments/assets/22d9e24c-13b6-4f49-b3d6-ae76e0981062)
 
-    <ul>
-        <li>Player Performance Analysis</li>
-        <li>Similar Players Detection</li>
-        <li>Expected Goals (xG) Prediction</li>
-        <li>Interactive Dashboards</li>
-    </ul>
-</section>
+---
 
-<!-- GALLERY -->
-<section>
-    <h2 class="section-title">📊 Platform Screenshots</h2>
+### 🔍 Similar Players Detection (Top 5 Leagues)
+![Similar Players](https://github.com/user-attachments/assets/afa634b4-4e87-4f85-9f7d-edbc79be223c)
 
-    <div class="gallery">
+---
 
-        <!-- Replace src links by your own images -->
-        <img src="https://github.com/user-attachments/assets/ab9a4076-0d67-443c-b30e-94683b764930">
-        <img src="https://github.com/user-attachments/assets/06fccd7a-7da7-4ded-86cd-09dadf25998d">
-        <img src="https://github.com/user-attachments/assets/949a5b02-74b8-47c9-ae29-4f070e90f458">
-        <img src="https://github.com/user-attachments/assets/22d9e24c-13b6-4f49-b3d6-ae76e0981062">
-        <img src="https://github.com/user-attachments/assets/afa634b4-4e87-4f85-9f7d-edbc79be223c">
-        <img src="https://github.com/user-attachments/assets/50cc2fc7-0584-420a-8def-2f4ae4264c57">
+### 🛠 Admin Panel
+![Admin](https://github.com/user-attachments/assets/50cc2fc7-0584-420a-8def-2f4ae4264c57)
 
-    </div>
-</section>
+---
 
-</div>
+## 📌 Use Cases
 
-<footer>
-    <p>© 2026 — StatZone Football Analytics Platform</p>
-    <p>Developed by Zakaria</p>
-</footer>
+- Football scouts analysis
+- Performance monitoring
+- Tactical decision support
+- Player recruitment comparison
+- Sports analytics research
 
-</body>
-</html>
+---
+
+## 📂 Project Structure (Simplified)
+
+StatZone/
+│
+├── data/
+├── etl/
+├── models/
+├── dashboard/
+├── database/
+└── app.py
+
+yaml
+Copy code
+
+---
+
+## 👨‍💻 Author
+
+**Zakaria**  
+🎓 Big Data & AI Engineer Student  
+⚽ Sports Analytics Enthusiast  
+
+---
+
+⭐ If you find this project useful, don't forget to star the repository!
