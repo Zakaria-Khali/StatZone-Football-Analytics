@@ -1,8 +1,8 @@
-#StatZone – Football Performance Analytics Platform
-
-#Project Objective
---> StatZone is an interactive data analytics platform designed to analyze, visualize and predict football players performance using real datasets.
-
+#StatZone – Football Performance Analytics Platform<br>
+<br>
+#Project Objective<br>
+--> StatZone is an interactive data analytics platform designed to analyze, visualize and predict football players performance using real datasets.<br>
+<br>
 #Technologies Used
 --> Python
 --> Pandas
@@ -10,20 +10,20 @@
 --> Scikit-learn
 --> Streamlit
 --> ETL Pipeline
+<br>
+#System Architecture<br>
+--> Data Collection<br>
+--> Data Cleaning & Preprocessing<br>
+--> ETL Process<br>
+--> Data Warehouse<br>
+--> Machine Learning Models<br>
+--> Visualization Dashboard<br>
 
-#System Architecture
---> Data Collection
---> Data Cleaning & Preprocessing
---> ETL Process
---> Data Warehouse
---> Machine Learning Models
---> Visualization Dashboard
-
-#Main Features
---> Player performance analysis
---> Similar players detection
---> Expected Goals (xG) prediction
---> Interactive dashboards
+#Main Features<br>
+--> Player performance analysis<br>
+--> Similar players detection<br>
+--> Expected Goals (xG) prediction<br>
+--> Interactive dashboards<br>
 
 
 ![Home]<img width="1799" height="902" alt="image" src="https://github.com/user-attachments/assets/ab9a4076-0d67-443c-b30e-94683b764930" />
